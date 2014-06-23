@@ -46,13 +46,13 @@
         
     // step 2
     .xxx-icon-home:before {
-      content: "\e200";
+        content: "\e200";
     }
     .xxx-icon-camera:before {
-      content: "\e201";
+        content: "\e201";
     }
     .xxx-icon-check:before {
-      content: "\e201";
+        content: "\e201";
     }
 
 ```
