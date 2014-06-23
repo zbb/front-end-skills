@@ -31,29 +31,29 @@
     @include xxx-font-face("xxx-icon", font-files('xxx-icon/xxx-font-icon.ttf','xxx-icon/xxx-font-icon.woff'), "xxx-icon/xxx-font-icon.eot");
 
 // step 1
-.xxx-icon-home,.xxx-icon-camera,.xxx-icon-check {
-    font-family: 'xxx-icon';
-    content: attr(data-icon);
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-    
-// step 2
-.xxx-icon-home:before {
-  content: "\e200";
-}
-.xxx-icon-camera:before {
-  content: "\e201";
-}
-.xxx-icon-check:before {
-  content: "\e201";
-}
+    .xxx-icon-home,.xxx-icon-camera,.xxx-icon-check {
+        font-family: 'xxx-icon';
+        content: attr(data-icon);
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+        
+    // step 2
+    .xxx-icon-home:before {
+      content: "\e200";
+    }
+    .xxx-icon-camera:before {
+      content: "\e201";
+    }
+    .xxx-icon-check:before {
+      content: "\e201";
+    }
 
 ```
   
