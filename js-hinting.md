@@ -25,7 +25,7 @@
    }
    ```
    
-   ```unused```: 定义了但未使用的变量。现在默认false，即不检查这一项。
+   ```unused```: 定义了变量但从未使用。现在默认false，即不检查这一项。
    
 ##  Sublime-JSHint 
  - 作为 Sublime-Text 的插件。
@@ -38,9 +38,8 @@
  - 配置执行 jshint 时机：编辑器内右键 -> JSHint -> Set Plugin Options.
   - 可以把 ```lint_on_save``` 设置为 ```true```。当保存 js 文件时自动执行 jshint.
 
-
  - 配置检测项：编辑器内右键 -> JSHint -> Set Linting Preferencess.
-  - 把 ```undef``` 设置成 ```false``` 或者注释掉。
+  - 具体参数可参考 http://zhang.zipeng.info/vimwiki/Entries/Reference/Tools/jshint.html
  
  - 用法：保存文件时会自动检测，并标记有错误的行数(如果设置了```lint_on_save``` 为 ```true```)。 ```cmd + shift + j``` 可以弹出相关错误信息。
 
@@ -52,7 +51,7 @@
  
  -  都可以通过设置相关参数检测特定项。
  -  对于检测一些语法格式、变量是否使用等等，可以用```Sublime-JSHint```在保存当前 js 文件时即时检测一下。
- -  如 混合使用 单/双引号, 定义了变量但未使用过。
+  -  如 混合使用单/双引号, 定义了变量但从未使用过，等等。
  
 
 
