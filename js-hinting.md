@@ -36,12 +36,12 @@
     type js gutter, select JSHint Gutter
 ```
  - 配置执行 jshint 时机：编辑器内右键 -> JSHint -> Set Plugin Options.
- - 可以把 ```lint_on_save``` 设置为 ```true```。当保存 js 文件时自动执行 jshint.
+  - 可以把 ```lint_on_save``` 设置为 ```true```。当保存 js 文件时自动执行 jshint.
 
 
  - 配置检测项：编辑器内右键 -> JSHint -> Set Linting Preferencess.
- - 把 ```undef``` 设置成 ```false``` 或者注释掉。
-
+  - 把 ```undef``` 设置成 ```false``` 或者注释掉。
+ 
  - 用法：保存文件时会自动检测，并标记有错误的行数(如果设置了```lint_on_save``` 为 ```true```)。 ```cmd + shift + j``` 可以弹出相关错误信息。
 
 
